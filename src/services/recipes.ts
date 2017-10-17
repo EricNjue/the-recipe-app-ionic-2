@@ -9,6 +9,7 @@ export class RecipesService {
 
   addRecipe(recipe: RecipeModel) {
     this.recipes.push(recipe);
+    console.log(this.recipes);
   }
 
   getRecipe() {
